@@ -1,0 +1,127 @@
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+background-color: #340911;
+}
+
+.input-group {
+max-width: 50%;
+margin-left:26%;
+border:2px solid #340911;
+}
+
+.jumbotron {
+background-color: #840F25;
+}
+
+#jumbo {
+background-color: #CB1839;
+cursor:default;
+}
+
+#jumbo span {
+color: gold;
+}
+
+.text-center h1 {
+color:aliceblue;
+}
+
+.text-center h2 {
+color: #E8DAEF;
+font-family: 'Fascinate Inline', cursive;
+}
+
+footer {
+background-color: #340911;
+padding: 50px;
+margin-top: 2%;
+}
+
+footer p {
+background-color: #340911;
+}
+
+p {
+cursor: default;
+font-family: 'Fjalla One', sans-serif;
+background-color:#961637;
+color:aliceblue;
+}
+
+.bg-3 p {
+background-color:#FCF4F6;
+color:black;
+font-size:2em;
+}
+
+.bg-3 p span {
+color:red;
+}
+
+#staff {
+color:gold;
+}
+
+/************************MAIN CONTENT*************************/
+
+.row {
+background-color:#FCF4F6;
+}
+
+.row img {
+width:100%;
+}
+
+.col-md-6 {
+margin-left: 2%;
+margin-top:2%;
+border: 1px solid black;
+background-color: #961637;
+}
+
+.bg-3 {
+width:80%;
+}
+
+.btn-info {
+background-color: #961637;
+}
+
+.btn-info:hover {
+background-color: crimson;
+}
+
+.col-sm-4 {
+margin-top:2%;
+border: 2px solid crimson;
+}
+
+.col-sm-4 h1 {
+color:black;
+}
+
+.col-sm-4 h4 {
+font-family:cu; 
+}
+
+.one {
+color:crimson;
+}
+
+.one:hover {
+color:darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

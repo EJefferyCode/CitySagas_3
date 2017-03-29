@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style2.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Fjalla+One" rel="stylesheet">
+        <script src="https://use.fontawesome.com/e0e83f42cb.js"></script>
+        <link rel="stylesheet" href="bootstrap-social.css">
+    </head>
+<body>
+<!------------NAVBAR------------>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#" data-toggle="modal" data-target="#MyModal4">New York</a>
+        
+        
+        <!--modal for different cities-->
+         <div id="MyModal4" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <h3>Check Out Our Other Cities</h3>
+                   </div>
+                     <div class="modal-body">
+                    <select>
+                         <option>-----</option>
+                         <option>Los Angeles</option>
+                         <option>San Francisco</option>
+                         <option>DC</option>
+                         <option>Portland</option>
+                         <option>Boston</option>
+                         
+                    </select>
+                   </div>
+                     <div class="modal-footer">
+                         <button type="submit" class="btn btn-primary">GO</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                
+                </div>
+             
+            </div>
+        
+        </div>
+        
+        
+    </div>
+            
+            
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="news.html">News</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="goingout.html">Going Out</a></li>
+                    <li><a href="food.html">Food Stuff</a></li>
+                       <!---Modal Contact Us Button--->
+        <li><a href="#" data-toggle="modal" data-target="#MyModal3">Contact Us</a></li>
+          
+          <!--Modal Content For Contact Us-->
+          <div id="MyModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>CitySagas</h1>
+                   <h5>New York</h5>
+                </div>
+                <div class="modal-body">
+                    <h5>CitySagas LLC<br>24 Mercer Street Unit #4<br>New York, NY 10010<br>nyc@citysagas.com</h5>
+                 
+                </div>
+                <div class="modal-footer">
+                  
+                    
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                
+                </div>
+              </div>
+          </div>
+                    <li><a href="#" id="staff">Staff</a></li>
+                </ul>
+                  <!----MODAL BUTTONS FOR SIGN UP AND LOG IN--->
+        
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#MyModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#MyModal2"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+        
+        
+         <!----MODAL ONE SIGN UP--->
+        
+        <div id="MyModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-header"><h1>CitySagas</h1><h3>Sign Up<br><hr>It's Free </h3> <figcaption><i>*Unlike that $7.00 Mocha Cap You Got This Morning</i></figcaption></div>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                        <label for="usr">Username</label>
+                        <input type="text" class="form-control" id="usr" required>
+                        <label for="pwd">Password</label>
+                        <input type="password" class="form-control" id="pwd" required>
+                        
+                    </form>
+                    
+                </div>
+                <div class="modal-footer">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" checked="true">
+                            I agree to the <a href="">Terms and Conditions</a> of this site.
+                        </label>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary">GO</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    
+                </div>
+                </div>
+            
+            </div>
+        
+        </div>
+      
+        <!---MODAL TWO LOG IN--->
+        
+            <div id="MyModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-header">
+                    <h3>Log Into Your Account</h3>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="usr">Username</label>
+                        <input type="text" class="form-control" id="usr" required>
+                        <label for="pwd">Password</label>
+                        <input type="password" class="form-control" id="pwd" required>
+                        
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            
+                            <a href="">Forgot Password?</a>
+                        </label>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary">GO</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            
+            </div>
+        
+        </div>
+            </div>
+        </div>
+    </nav>
+    
+   <div class="jumbotron">
+   <div id="jumbo" class="container text-center">
+        <h1>CitySagas</h1> 
+        <h2><span class="glyphicon glyphicon-cutlery"></span> <span class="glyphicon glyphicon-apple"></span> New York <span class="glyphicon glyphicon-glass"></span>  <span class="glyphicon glyphicon-briefcase"></span>  </h2>
+  </div>
+</div>
+  
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog...">
+        <span class="input-group-btn">
+         <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+        </button>
+        </span>
+    </div>
+    
+    
+    <div class="container-fluid bg-3 text-center"><br>
+        <div class="row"><br><br>
+            <p>CITYSAGAS <span>NEWS</span></p>
+            <div class="col-md-6">
+               <img src="images/n1.jpg"/>
+            </div>
+            
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Annie Doe</a><br>
+                <a href="#">Comments<span class="badge">5</span></a><br><br>
+                </div><br>
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>R Train Service Suspended </h1>
+                <h4>R train service is suspunded in Astoria after a man falls onto the tracks...<a href="#" class="one">read more</a></h4>
+                </div>
+            
+            <div class="col-md-6">
+               <img src="images/n2.jpg"/>
+            </div>
+            
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Jimmy Doe</a><br>
+                <a href="#">Comments<span class="badge">27</span></a><br><br>
+                </div>
+            
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>Former Prez Considers NYC</h1>
+                <h4>Former President Obama created a stir this week in Midtown as he arrived...<a href="#" class="one">read more</a></h4>
+                </div>
+            
+            <div class="col-md-6">
+                <img src="images/n3.jpg"/>
+            </div>
+            
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Garrie Doe</a><br>
+                <a href="#">Comments<span class="badge">15</span></a><br><br>
+                </div>
+            
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>NY1 News Anchor Fired</h1>
+                <h4>Lipsum epsom dolor simet...<a href="#" class="one">read more</a></h4>
+                </div>
+            
+            
+            <div class="col-md-6">
+               <img src="images/n4.jpg"/>
+            </div>
+            
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Loane Doe</a><br>
+                <a href="#">Comments<span class="badge">41</span></a><br><br>
+                </div>
+            
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>18 Year Old Shot And Killed In Brooklyn</h1>
+                <h4><a href="#" class="one">read more</a></h4>
+                </div>
+            
+            <div class="col-md-6">
+               <img src="images/n5.jpg"/>
+            </div>
+            
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Annie Doe</a><br>
+                <a href="#">Comments<span class="badge">20</span></a><br><br>
+                </div>
+            
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>Cuomo Takes It Slow...</h1>
+                <h4><a href="#" class="one">read more</a></h4>
+                </div>
+            
+            
+            <div class="col-md-6">
+                <img src="images/n6.jpg"/>
+            </div>
+
+                 <div class="col-sm-4" style="background-color:aliceblue;">
+                <a href="#">Posted by: Loane Doe</a><br>
+                <a href="#">Comments<span class="badge">12</span></a><br><br>
+                </div>
+            
+                <div class="col-sm-4" style="background-color:aliceblue;">
+                <h1>SoHo Slumlord Takes The High Road - Refuses Calls</h1>
+                <h4><a href="#" class="one">read more</a></h4>
+                </div>
+            
+            
+        </div><br><br>
+        <a href="#" class="btn btn-info" role="button">
+      Next
+      </a>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <footer class="container-fluid text-center">
+        <a class="btn btn-social-icon btn-twitter">
+        <span class="fa fa-twitter"></span>
+        </a>
+        <a class="btn btn-social-icon btn-facebook">
+        <span class="fa fa-facebook"></span>
+        </a><br><br>
+    <p>&copy;CitySagas 2018</p>
+</footer>
+   
+    
+    
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
